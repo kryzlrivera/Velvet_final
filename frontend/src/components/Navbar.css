@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap');
+
+.navbar {
+  background: transparent;
+  padding: 1.5rem 0;
+  position: relative;
+  z-index: 100;
+  border-bottom: 1px solid rgba(194, 14, 77, 0.1);
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #C20E4D;
+  text-decoration: none;
+  letter-spacing: -0.5px;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-weight: 600;
+}
+
+.navbar-links a {
+  color: #C20E4D;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: opacity 0.2s;
+}
+
+.navbar-links a:hover {
+  opacity: 0.8;
+}
+
+.cart-btn {
+  background-color: #C20E4D;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  display: inline-block;
+  transition: transform 0.2s;
+}
+
+.cart-btn:hover {
+  transform: translateY(-2px);
+  color: white;
+}
+
+.btn-logout {
+  background-color: #C20E4D;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: transform 0.2s;
+}
+
+.btn-logout:hover {
+  transform: translateY(-2px);
+  color: white;
+}
+
+.btn-outline-pink {
+  background: transparent;
+  border: 1px solid rgba(194, 14, 77, 0.3);
+  color: #C20E4D;
+  padding: 4px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-outline-pink:hover {
+  background: rgba(194, 14, 77, 0.05);
+}
